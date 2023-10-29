@@ -1,0 +1,102 @@
+/* Color Palette
+#1C5830 - GREEN
+#09846A - Dark Turquoise
+#9EAAA8 - Grey
+#7C8B51 - Light Green
+#291C18 - Dark Brown
+*/
+
+/* Fonts
+--------------- 
+font-family: 'Crimson Text', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Young Serif', serif;
+*/
+
+/* Global styles 
+------------------------------------*/
+
+body {
+    margin: 25px;
+    background: #1C5830;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 50px;
+} 
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Header 
+-------------------------------------------------------*/
+header {
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff; /* White text on green background */
+    background: #1C5830;
+    padding: 10px;
+    padding: 20px;    
+
+}
+
+/* Name */
+header h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: -10px; /* So that FrontEnd goes up a little to Thisura*/ 
+}
+
+.content-wrap{
+    padding: 50px;    
+}
+
+/* Image Left 
+-------------------------*/
+.flow-left {
+    margin: 10px;
+    float: left;
+}
+
+/* Work Experience
+------------------------------------*/
+.workSection {
+    background: #517c8b; 
+    padding-top: 10px; /* Add some padding for better readability */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
+
+/* Education
+------------------------------------*/
+.educationSection {
+    background: #7C8B51; 
+    padding-top: 10px; /* Add some padding for better readability */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
+
+/* Footer 
+------------------------------------*/
+footer {
+    font-family: 'Titillium Web', sans-serif;
+    background: #68716A; /* Dark Turquoise */
+    color: #ffffff; /* White text on dark turquoise background */
+    padding: 20px;
+}
