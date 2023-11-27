@@ -4,6 +4,7 @@
 #9EAAA8 - Grey
 #7C8B51 - Light Green
 #291C18 - Dark Brown
+#A4B18D - Lightest Green...
 */
 
 /* Fonts
@@ -18,79 +19,106 @@ font-family: 'Young Serif', serif;
 
 /* Global styles 
 ------------------------------------*/
-
-body {
-    margin: 25px;
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .content-wrap {
+    padding: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+  }
+  .column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+  }
+  .profile-img {
+    width:300px;
+    border-radius: 50%;
+    float: left;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
     background: #1C5830;
     font-family: 'Montserrat', sans-serif;
-}
-h1 {
-    font-size: 50px;
-} 
-
-h2 {
+    font-size: 100%;
+    margin: 0;
+  }
+  h1 {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-p {
+    font-size: 250%;
+      color: #7C8B51;
+    margin: 0;
+  } 
+  
+  h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 150%;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 150%;
+    margin: 0;
+  }
+  
+  p {
     font-size: 15px;
-}
-/* Image Left 
--------------------------*/
-.flow-left {
-    margin: 10px;
-    float: left;
-
-}
-
-/* Header 
--------------------------------------------------------*/
-header {
+  }
+  
+  /* Header 
+  -------------------------------------------------------*/
+  header {
     font-family: 'Titillium Web', sans-serif;
     color: #ffffff; /* White text on green background */
-    background: #1C5830;
-    padding: 10px;
-}
-
-/* Name */
-header h1 {
+    background: #A4B18D;
+  }
+  
+  /* Name */
+  header h1 {
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 50px;
-    margin-bottom: -10px; /* So that FrontEnd goes up a little*/
-}
-
-/* Work Experience
-------------------------------------*/
-.workSection {
+    color: #1C5830;
+  }
+  
+  
+  /* Work Experience
+  ------------------------------------*/
+  .workSection {
     background: #517c8b; 
-    padding-top: 10px; /* Add some padding for better readability */
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-
-}
-
-/* Education
-------------------------------------*/
-.educationSection {
-    background: #7C8B51; 
-    padding-top: 10px; /* Add some padding for better readability */
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-
-}
-
-/* Footer 
-------------------------------------*/
-footer {
+  
+  }
+  
+  /* Education
+  ------------------------------------*/
+  .educationSection {
+    background: #1C5830; 
+    color: #7C8B51;
+  }
+  
+  /* Footer 
+  ------------------------------------*/
+  footer {
     font-family: 'Titillium Web', sans-serif;
-    background: #68716A; /* Dark Turquoise */
-    color: #ffffff; /* White text on dark turquoise background */
+    background: #A4B18D; 
+    color: #ffffff; 
     padding: 20px;
-}
+    text-align: center;
+  }
+  
+  /* extra */
+  .contact-info a {
+    padding: 10px; 
+    display: inline-block;
+  }
+  
